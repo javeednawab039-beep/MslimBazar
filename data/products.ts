@@ -1,4 +1,4 @@
-import { Product } from '@/images/types';
+import { Product } from '@/lib/types';
 
 export const products: Product[] = [
   {
