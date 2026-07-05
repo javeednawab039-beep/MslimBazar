@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-brand-navy antialiased;
+}
+
+::selection {
+  @apply bg-brand-blue/20;
+}
+
+.container-px {
+  @apply px-4 sm:px-6 lg:px-10;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-blue px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-brand-blueDark hover:shadow-lift active:scale-[0.98];
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-brand-navy/15 bg-white px-6 py-3 text-sm font-semibold text-brand-navy transition-all hover:border-brand-blue hover:text-brand-blue active:scale-[0.98];
+}
+
+.btn-gold {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-gold px-6 py-3 text-sm font-semibold text-brand-navy transition-all hover:brightness-105 hover:shadow-lift active:scale-[0.98];
+}
+
+.card {
+  @apply rounded-xl2 border border-slate-100 bg-white shadow-soft transition-all duration-300;
+}
+
+.section-title {
+  @apply text-3xl font-bold tracking-tight text-brand-navy sm:text-4xl;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

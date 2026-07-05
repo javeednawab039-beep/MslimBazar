@@ -1,0 +1,252 @@
+import { Product } from '@/lib/types';
+
+export const products: Product[] = [
+  {
+    id: 'p1',
+    slug: 'smart-watch-series-8',
+    name: 'Smart Watch Series 8',
+    description: 'Track fitness, heart rate, and notifications in one sleek band.',
+    longDescription:
+      'The Smart Watch Series 8 pairs a bright always-on display with precise heart-rate and sleep tracking. Water resistant, seven-day battery life, and works with iOS and Android.',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1000&q=80',
+      'https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1000&q=80',
+    ],
+    category: 'electronics',
+    price: 59.99,
+    originalPrice: 74.99,
+    rating: 4.7,
+    reviewCount: 120,
+    stock: 'in-stock',
+    discountPercent: 20,
+    isBestSeller: true,
+  },
+  {
+    id: 'p2',
+    slug: 'wireless-earbuds-pro',
+    name: 'Wireless Earbuds Pro',
+    description: 'Active noise cancellation with 30-hour battery life.',
+    longDescription:
+      'Wireless Earbuds Pro deliver studio-quality sound with adaptive noise cancellation, touch controls, and a compact charging case good for 30 hours of total playtime.',
+    image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=1000&q=80',
+      'https://images.unsplash.com/photo-1590658006821-96f2b6c04c92?w=1000&q=80',
+    ],
+    category: 'electronics',
+    price: 33.99,
+    originalPrice: 39.99,
+    rating: 4.6,
+    reviewCount: 96,
+    stock: 'in-stock',
+    discountPercent: 15,
+    isBestSeller: true,
+  },
+  {
+    id: 'p3',
+    slug: 'portable-bluetooth-speaker',
+    name: 'Portable Bluetooth Speaker',
+    description: 'Rich, room-filling sound in a rugged waterproof shell.',
+    longDescription:
+      'This portable speaker delivers deep bass and clear highs with IPX7 waterproofing, a 12-hour battery, and a durable fabric shell built for travel.',
+    image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=1000&q=80',
+      'https://images.unsplash.com/photo-1545454675-3531b543be5d?w=1000&q=80',
+    ],
+    category: 'electronics',
+    price: 44.99,
+    originalPrice: 59.99,
+    rating: 4.5,
+    reviewCount: 88,
+    stock: 'low-stock',
+    discountPercent: 25,
+  },
+  {
+    id: 'p4',
+    slug: 'travel-laptop-backpack',
+    name: 'Travel Laptop Backpack',
+    description: 'Anti-theft, water-resistant backpack with USB charging port.',
+    longDescription:
+      'A 15.6-inch laptop compartment, hidden anti-theft pocket, and a built-in USB port make this backpack a daily-carry favorite for commuters and travelers alike.',
+    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1000&q=80',
+      'https://images.unsplash.com/photo-1491637639811-60e2756cc1c7?w=1000&q=80',
+    ],
+    category: 'accessories',
+    price: 34.99,
+    originalPrice: 49.99,
+    rating: 4.6,
+    reviewCount: 75,
+    stock: 'in-stock',
+    discountPercent: 30,
+    isNewArrival: true,
+  },
+  {
+    id: 'p5',
+    slug: 'ceramic-nonstick-cookware-set',
+    name: 'Ceramic Nonstick Cookware Set',
+    description: '10-piece set with even heat distribution and easy cleanup.',
+    longDescription:
+      'This 10-piece ceramic-coated cookware set heats evenly, releases food effortlessly, and is safe for all stovetops including induction.',
+    image: 'https://images.unsplash.com/photo-1584990347163-0e3e3f2b7c58?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1584990347163-0e3e3f2b7c58?w=1000&q=80',
+      'https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=1000&q=80',
+    ],
+    category: 'kitchen',
+    price: 89.99,
+    originalPrice: 129.99,
+    rating: 4.8,
+    reviewCount: 64,
+    stock: 'in-stock',
+    discountPercent: 31,
+  },
+  {
+    id: 'p6',
+    slug: 'led-vanity-mirror',
+    name: 'LED Vanity Mirror',
+    description: 'Hollywood-style lighting with adjustable brightness.',
+    longDescription:
+      'Ten dimmable LED bulbs surround this vanity mirror for even, flattering light at any angle, with touch controls and 360-degree rotation.',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1000&q=80',
+    ],
+    category: 'beauty',
+    price: 42.5,
+    originalPrice: 59.99,
+    rating: 4.4,
+    reviewCount: 51,
+    stock: 'in-stock',
+    discountPercent: 29,
+  },
+  {
+    id: 'p7',
+    slug: 'adjustable-dumbbell-set',
+    name: 'Adjustable Dumbbell Set',
+    description: 'Space-saving dumbbells that adjust from 5 to 25 lbs.',
+    longDescription:
+      'Swap five weight plates in seconds with this adjustable dumbbell set, built for home gyms where space is tight but goals aren\u2019t small.',
+    image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1000&q=80',
+    ],
+    category: 'fitness',
+    price: 79.0,
+    originalPrice: 99.0,
+    rating: 4.7,
+    reviewCount: 43,
+    stock: 'in-stock',
+    discountPercent: 20,
+    isBestSeller: true,
+  },
+  {
+    id: 'p8',
+    slug: 'smart-home-security-camera',
+    name: 'Smart Home Security Camera',
+    description: '1080p HD with night vision and motion alerts.',
+    longDescription:
+      'Keep an eye on what matters with 1080p HD video, two-way audio, night vision, and instant motion alerts sent straight to your phone.',
+    image: 'https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1558002038-1055907df827?w=1000&q=80',
+    ],
+    category: 'smart-gadgets',
+    price: 38.99,
+    originalPrice: 54.99,
+    rating: 4.5,
+    reviewCount: 112,
+    stock: 'in-stock',
+    discountPercent: 29,
+    isNewArrival: true,
+  },
+  {
+    id: 'p9',
+    slug: 'orthopedic-pet-bed',
+    name: 'Orthopedic Pet Bed',
+    description: 'Memory foam comfort for dogs and cats of all sizes.',
+    longDescription:
+      'Supportive memory foam eases pressure on joints, while the machine-washable cover keeps this bed fresh through every nap.',
+    image: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1000&q=80',
+    ],
+    category: 'pet-supplies',
+    price: 29.99,
+    originalPrice: 44.99,
+    rating: 4.6,
+    reviewCount: 38,
+    stock: 'low-stock',
+    discountPercent: 33,
+  },
+  {
+    id: 'p10',
+    slug: 'minimalist-leather-wallet',
+    name: 'Minimalist Leather Wallet',
+    description: 'Slim genuine-leather wallet with RFID protection.',
+    longDescription:
+      'Carry less, protect more. Genuine top-grain leather, RFID-blocking lining, and a slim profile that disappears into any pocket.',
+    image: 'https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1627123424574-724758594e93?w=1000&q=80',
+    ],
+    category: 'accessories',
+    price: 24.99,
+    originalPrice: 34.99,
+    rating: 4.5,
+    reviewCount: 29,
+    stock: 'in-stock',
+    discountPercent: 29,
+  },
+  {
+    id: 'p11',
+    slug: 'aromatherapy-diffuser',
+    name: 'Aromatherapy Essential Oil Diffuser',
+    description: 'Whisper-quiet mist with seven-color ambient light.',
+    longDescription:
+      'Fill any room with a calming mist and soft, color-changing light. Runs quietly for up to eight hours on a single fill.',
+    image: 'https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=1000&q=80',
+    ],
+    category: 'home-essentials',
+    price: 22.5,
+    originalPrice: 32.0,
+    rating: 4.4,
+    reviewCount: 57,
+    stock: 'in-stock',
+    discountPercent: 30,
+  },
+  {
+    id: 'p12',
+    slug: 'stainless-steel-knife-set',
+    name: 'Stainless Steel Knife Set',
+    description: '6-piece precision-forged set with acrylic stand.',
+    longDescription:
+      'Precision-forged German stainless steel holds an edge longer, while the acrylic stand keeps every blade organized and within reach.',
+    image: 'https://images.unsplash.com/photo-1593618998160-e34014e67546?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1593618998160-e34014e67546?w=1000&q=80',
+    ],
+    category: 'kitchen',
+    price: 54.99,
+    originalPrice: 79.99,
+    rating: 4.7,
+    reviewCount: 46,
+    stock: 'in-stock',
+    discountPercent: 31,
+  },
+];
+
+export function getProductBySlug(slug: string) {
+  return products.find((p) => p.slug === slug);
+}
+
+export function getRelatedProducts(product: Product, count = 4) {
+  return products
+    .filter((p) => p.category === product.category && p.id !== product.id)
+    .slice(0, count);
+}
