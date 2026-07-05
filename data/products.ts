@@ -5,9 +5,9 @@ export const products: Product[] = [
   id: 'p1',
   slug: 'American-brandwatch',
   name: 'American fashion automatic mechanical watches',
-  description: 'Track fitness, heart rate, and notifications in one sleek band.',
-  longDescription:
-    'The Smart Watch Series 8 pairs a bright always-on display with precise heart-rate and sleep tracking. Water resistant, seven-day battery life, and works with iOS and Android.',
+  description: ' American brand company watches.',
+ longDescription:
+  'Material: Metal. Product Attributes: Magnetic Contains. Package Size: 150*100*100mm. Display type: pointer. Waterproof: Yes. Waterproof performance: 30M. Movement type: mechanical. Dial diameter: 44mm. Thickness: 14mm. Crown type: flat top cone crown. Table bottom type: through the bottom. Mirror material: mineral strengthened glass mirror. Clasp style: single folding buckle. Buckle material: stainless steel. Strap material: alloy. Dial shape: round. Case material: alloy.',
   image: '/images/1_1331514011958.jpg',
   images: ['/images/1_1331514011958.jpg',
 '/images/2_1696248297871.jpg',
