@@ -6,8 +6,7 @@ export const products: Product[] = [
     slug: 'american-fashion-automatic-mechanical-watches',
     name: 'American fashion automatic mechanical watches',
     description: ' High quility brand watch ,Metal alloy body,Resistance: 30M.',
-   longDescription: `
-This premium mechanical watch is designed with high-quality alloy material and a stylish round dial.
+   longDescription: `This premium mechanical watch is designed with high-quality alloy material and a stylish round dial.
 
 Key Features:
 - Material: Metal alloy body
@@ -21,18 +20,17 @@ Design:
 - Strap: Alloy with stainless steel buckle
 - Crown: Flat top cone design
 - Display: Pointer type
-
-Perfect for fashion and daily wear.
-    image: '1_1331514011958.jpg',
+Perfect for fashion and daily wear',
+    image:'images/1_1331514011958.jpg',
 
   images: [
-    '1_1331514011958.jpg',
-'2_1696248297871.jpg',
-'3_2259530001832.jpg',
-'4_934801676823.jpg',
-'5_241832399544.jpg',
-'6_3310242338887.jpg',
-'7_1189087404966.jpg',
+    'images/1_1331514011958.jpg',
+'images/2_1696248297871.jpg',
+'images/3_2259530001832.jpg',
+'images/4_934801676823.jpg',
+'images/5_241832399544.jpg',
+'images/6_3310242338887.jpg',
+'images/7_1189087404966.jpg',
     ],
     category: 'electronics',
     price: 35.20,
