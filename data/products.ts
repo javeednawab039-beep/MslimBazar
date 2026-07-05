@@ -1,28 +1,24 @@
 import { Product } from '@/lib/types';
 
 export const products: Product[] = [
-  {
-    id: 'p1',
-    slug: 'smart-watch-series-8',
-    name: 'Smart Watch Series 8',
-    description: 'Track fitness, heart rate, and notifications in one sleek band.',
-    longDescription:
-      'The Smart Watch Series 8 pairs a bright always-on display with precise heart-rate and sleep tracking. Water resistant, seven-day battery life, and works with iOS and Android.',
-    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80',
-    images: [
-      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1000&q=80',
-      'https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1000&q=80',
-    ],
-    category: 'electronics',
-    price: 59.99,
-    originalPrice: 74.99,
-    rating: 4.7,
-    reviewCount: 120,
-    stock: 'in-stock',
-    discountPercent: 20,
-    isBestSeller: true,
-  },
-
+ {
+  id: 'p1',
+  slug: 'smart-watch-series-8',
+  name: 'Smart Watch Series 8',
+  description: 'Track fitness, heart rate, and notifications in one sleek band.',
+  longDescription:
+    'The Smart Watch Series 8 pairs a bright always-on display with precise heart-rate and sleep tracking. Water resistant, seven-day battery life, and works with iOS and Android.',
+  image: '/images/1_1331514011958.jpg',
+  images: ['/images/1_1331514011958.jpg'],
+  category: 'electronics',
+  price: 59.99,
+  originalPrice: 74.99,
+  rating: 4.7,
+  reviewCount: 120,
+  stock: 'in-stock',
+  discountPercent: 20,
+  isBestSeller: true,
+},
   {
     id: 'p2',
     slug: 'wireless-earbuds-pro',
