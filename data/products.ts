@@ -3,29 +3,26 @@ import { Product } from '@/lib/types';
 export const products: Product[] = [
   {
     id: 'p1',
-    slug: 'american-fashion-automatic-mechanical-watches',
-    name: 'American fashion automatic mechanical watches',
-    description: ' High quility brand watch ,Metal alloy body,Resistance: 30M.',
-   longDescription: `This premium mechanical watch is designed with high-quality alloy material and a stylish round dial , Key Features:- Material: Metal alloy body ,- Movement: Mechanical system ,- Water Resistance: 30M ,- Dial Size: 44mm , - Thickness: 14mm , - Glass: Mineral strengthened mirror , Design:  - Strap: Alloy with stainless steel buckle ,- Crown: Flat top cone design ,- Display: Pointer type , Perfect for fashion and daily wear.',
-   image:'images/1_1331514011958.jpg',
-  images: [
-    'images/1_1331514011958.jpg',
-'images/2_1696248297871.jpg',
-'images/3_2259530001832.jpg',
-'images/4_934801676823.jpg',
-'images/5_241832399544.jpg',
-'images/6_3310242338887.jpg',
-'images/7_1189087404966.jpg'
+    slug: 'smart-watch-series-8',
+    name: 'Smart Watch Series 8',
+    description: 'Track fitness, heart rate, and notifications in one sleek band.',
+    longDescription:
+      'The Smart Watch Series 8 pairs a bright always-on display with precise heart-rate and sleep tracking. Water resistant, seven-day battery life, and works with iOS and Android.',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80',
+    images: [
+      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1000&q=80',
+      'https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=1000&q=80',
     ],
     category: 'electronics',
-    price: 35.20,
-    originalPrice: 50.99,
+    price: 59.99,
+    originalPrice: 74.99,
     rating: 4.7,
     reviewCount: 120,
     stock: 'in-stock',
     discountPercent: 20,
     isBestSeller: true,
   },
+
   {
     id: 'p2',
     slug: 'wireless-earbuds-pro',
