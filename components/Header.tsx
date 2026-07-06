@@ -38,13 +38,11 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-slate-100 bg-white/95 backdrop-blur">
       <div className="container-px mx-auto flex max-w-7xl items-center justify-between gap-4 py-4">
         <Link href="/" className="flex items-center gap-2 shrink-0">
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-blue text-white">
-            <Logo size={18} />
-          </span>
+         <img src="/image/8_1189087434536.jpg" alt="Logo" className="h-9 w-9 rounded-lg object-cover" />
           <span className="text-lg font-extrabold tracking-tight text-brand-navy">
-            NORTH<span className="text-brand-blue">WELL</span>
+            Muslim<span className="text-brand-blue">Bazaar</span>
             <span className="block -mt-1 text-[10px] font-semibold tracking-[0.2em] text-slate-500">
-              STORE
+              Agent store
             </span>
           </span>
         </Link>
