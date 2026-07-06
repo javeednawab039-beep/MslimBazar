@@ -50,7 +50,7 @@ export default function Hero() {
           <div className="relative flex h-full w-full items-center justify-center rounded-full bg-white/60 shadow-soft backdrop-blur">
             <div className="relative h-56 w-56 animate-floatSlow sm:h-64 sm:w-64">
               <Image
-                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80"
+                src="/images/8_1189087434536.jpg"
                 alt="Premium lifestyle products"
                 fill
                 sizes="300px"
