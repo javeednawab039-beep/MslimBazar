@@ -1,5 +1,4 @@
 import { Category } from '@/lib/types';
-
 export const categories: Category[] = [
   { id: 'c1', name: 'Home Essentials', slug: 'home-essentials', image: '/images/home.jpg', bg: 'bg-blue-50', iconColor: 'text-brand-blue' },
   { id: 'c2', name: 'Kitchen', slug: 'kitchen', image: '/images/kitchen.jpg', bg: 'bg-amber-50', iconColor: 'text-amber-500' },
