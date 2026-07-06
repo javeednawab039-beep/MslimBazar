@@ -23,7 +23,7 @@ export interface Category {
   slug: string;
   image: string;
   bg: string;
-  imageColor: string;
+  iconColor: string;
 }
 
 export interface Review {
